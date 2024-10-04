@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio - [Tu nombre]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo"><a href="#inicio">Mi Portafolio</a></h1>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+    </nav>
+</header>
+
+<!-- Inicio -->
+<section id="inicio" class="inicio">
+    <div class="container">
+        <h2>Hola, soy [Tu nombre]</h2>
+        <p>Asistente virtual IT y desarrolladora front-end.</p>
+        <a href="#sobre-mi" class="btn">Conoce más sobre mí</a>
+    </div>
+</section>
+
+<!-- Sobre mí -->
+<section id="sobre-mi" class="sobre-mi">
+    <div class="container">
+        <h2>Sobre mí</h2>
+        <p>Soy una desarrolladora front-end en entrenamiento con experiencia en HTML, CSS, JavaScript y TypeScript. Además, soy asistente virtual especializada en áreas de IT. He trabajado en proyectos académicos y personales, enfocados en crear componentes reutilizables, gestión de rutas y comunicación entre componentes. Uso GitHub Pages para alojar y desplegar mis proyectos.</p>
+    </div>
+</section>
+
+<!-- Proyectos -->
+<section id="proyectos" class="proyectos">
+    <div class="container">
+        <h2>Proyectos</h2>
+        <div class="proyecto-grid">
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve de tu proyecto 1.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve de tu proyecto 2.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve de tu proyecto 3.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="contacto">
+    <div class="container">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
